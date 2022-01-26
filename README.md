@@ -15,6 +15,42 @@ this is unity game Optimizers witch help as to Optimizers ower game. if youare h
 
 ⚙Supported Unity versions: 2018.4.36 or higher
 
+# ⭐ MAIN FEATURES ⭐
+
+• Capability to boost game performance drastically
+
+• Change quality of any component when it's details are not needed
+
+• Just add optimizer to your object, set it up and see how it works
+
+• There is no baking or any other complicating operations
+
+• Various example scenes showcasing different features
+
+• Supporting unity versions from 5.6.0 to newest 2020
+
+• Use distance from camera, visibility on screen, behind wall detection and others
+
+• Clean and responsive editor window with built-in-like gizmos in scene view
+
+• Optimize Particle Systems, Multiple Terrains, Lights, Renderers, NavMeshAgents and more!
+
+• Progressive adaptation of system to game performance
+
+• Transitioning support between LOD Settings levels
+
+• Automatic operations to save your time
+
+• Templates for easy implementation of custom components to be optimized
+
+• Save presets for LOD levels in asset files to share settings
+
+• Upcoming new features!
+
+• Full source code included
+
+
+
 # About:
 Do it on anything inside scenes of your project!
 Give your game more FPS and be able to arrange more details.
