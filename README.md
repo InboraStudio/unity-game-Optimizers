@@ -78,4 +78,4 @@ video: 4
 https://www.youtube.com/watch?v=emW8HUpmsow&feature=emb_title
 
 # Support:
-+919027261649 WhatsApp number or www.alok-store.weebly.com
+alokads@gmail.com
