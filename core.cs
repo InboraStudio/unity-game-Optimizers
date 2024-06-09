@@ -3,19 +3,13 @@
 
 namespace utf8
 {
-    // The typedefs for 8-bit, 16-bit and 32-bit unsigned integers
-    // You may need to change them to match your system.
-    // These typedefs have the same names as ones from cstdint, or boost/cstdint
     typedef unsigned char   uint8_t;
     typedef unsigned short  uint16_t;
     typedef unsigned int    uint32_t;
 
-// Helper code - not intended to be directly called by the library users. May be changed at any time
+
 namespace internal
 {
-    // Unicode constants
-    // Leading (high) surrogates: 0xd800 - 0xdbff
-    // Trailing (low) surrogates: 0xdc00 - 0xdfff
     const uint16_t LEAD_SURROGATE_MIN  = 0xd800u;
     const uint16_t LEAD_SURROGATE_MAX  = 0xdbffu;
     const uint16_t TRAIL_SURROGATE_MIN = 0xdc00u;
@@ -23,7 +17,6 @@ namespace internal
     const uint16_t LEAD_OFFSET         = LEAD_SURROGATE_MIN - (0x10000 >> 10);
     const uint32_t SURROGATE_OFFSET    = 0x10000u - (LEAD_SURROGATE_MIN << 10) - TRAIL_SURROGATE_MIN;
 
-    // Maximum valid value for a Unicode code point
     const uint32_t CODE_POINT_MAX      = 0x0010ffffu;
 
     template<typename octet_type>
